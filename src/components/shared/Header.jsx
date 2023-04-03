@@ -11,7 +11,7 @@ const Header = () => {
       <div className="xl-1/6 text-center font-bold p-1">
         <h1 className="text-3xl">ACADEMIT</h1>
       </div>
-      <nav className={`fixed bg-white w-[80%] md:w-[40%] xl:w-full h-full ${showMenu ? "left-0" : "-left-full"} top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500`}>
+      <nav className={`fixed text-lg bg-white w-[80%] md:w-[40%] xl:w-full h-full ${showMenu ? "left-0" : "-left-full"} top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center xl:justify-end gap-10 transition-all duration-500`}>
         <a href="#">Sobre Nosotros</a>
         <a href="#">Servicios</a>
         <a href="#">Cursos</a>
